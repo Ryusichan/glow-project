@@ -119,6 +119,18 @@ figure {
   background: rgba(41, 34, 43, 0.5);
 }
 
+.glowBgimg {
+  background-image: url("../images/cover_bg_1.jpg");
+}
+
+.contentBg01 {
+  background-image: url("../images/work-1.jpg");
+}
+
+.contentBg02 {
+  background-image: url("../images/work-2.jpg");
+}
+
 .fh5co-cover {
   background-size: cover;
   position: relative;

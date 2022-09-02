@@ -1,80 +1,47 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Appbar = () => {
+  const string = "../res/images/cover_bg_1.jpg";
+  const backgroundImg = "../res/images/cover_bg_1.jpg";
   return (
     <>
       <div id="fh5co-header">
         <header id="fh5co-header-section">
           <div className="container">
             <div className="nav-header">
-              <a href="#" className="js-fh5co-nav-toggle fh5co-nav-toggle">
+              <Link to="/" className="js-fh5co-nav-toggle fh5co-nav-toggle">
                 <i></i>
-              </a>
+              </Link>
               <h1 id="fh5co-logo">
-                <a href="index.html">Glow</a>
+                <Link to="index">Glow</Link>
               </h1>
               <nav id="fh5co-menu-wrap" role="navigation">
                 <ul className="sf-menu" id="fh5co-primary-menu">
                   <li className="active">
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li className="active">
-                    <a href="portfolio.html">Work</a>
+                    <Link to="portfolio">Work</Link>
                   </li>
                   <li>
-                    <a href="services.html">Services</a>
+                    <Link to="services">Services</Link>
                   </li>
                   {/* </li> */}
                   <li>
-                    <a href="about.html">About</a>
+                    <Link to="about">About</Link>
                   </li>
                   <li>
-                    <a href="blog.html">Blog</a>
+                    <Link to="blog">Blog</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <Link to="contact">Contact</Link>
                   </li>
                 </ul>
               </nav>
             </div>
           </div>
         </header>
-      </div>
-
-      <div className="fh5co-hero">
-        <div className="fh5co-overlay"></div>
-        <div
-          className="fh5co-cover text-center"
-          data-stellar-background-ratio="0.5"
-          style={{ backgroundImage: "url(images/cover_bg_1.jpg)" }}
-        >
-          <div className="desc animate-box">
-            <h2>
-              Capture Every <strong>Good</strong> Things
-            </h2>
-            <span>
-              Lovely Crafted by
-              <a
-                href="http://frehtml5.co/"
-                target="_blank"
-                className="fh5co-site-name"
-              >
-                FREEHTML5.co
-              </a>
-            </span>
-            <p>
-              <a className="btn btn-primary btn-lg btn-learn" href="#">
-                Learn More
-              </a>
-              <a
-                className="btn btn-primary btn-lg popup-vimeo btn-video"
-                href="https://vimeo.com/channels/staffpicks/93951774"
-              >
-                <i className="icon-play"></i> Watch Video
-              </a>
-            </p>
-          </div>
-        </div>
       </div>
     </>
   );

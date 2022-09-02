@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, useRoutes } from "react-router-dom";
 import Appbar from "../components/Appbar";
+import Footer from "../components/Footer";
 import About from "../pages/About";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
@@ -43,6 +44,7 @@ const AppWrapper = () => {
     <BrowserRouter>
       <Appbar />
       <Routers />
+      <Footer />
     </BrowserRouter>
   );
 };
