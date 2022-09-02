@@ -3130,6 +3130,6 @@
 .icon-svg:before {
   content: "\eca6";
 }
-/* .icon-IcoMoon:before {
-    content: "\eca7";
-} */
+.icon-IcoMoon:before {
+  content: "\eca7";
+}

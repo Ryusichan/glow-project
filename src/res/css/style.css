@@ -626,12 +626,15 @@ figure {
   border-radius: 50%;
   margin-bottom: 20px;
 }
-.services span i {
+.services span svg {
   font-size: 30px;
   color: #ef6249 !important;
   display: table-cell;
   vertical-align: middle;
-  height: 80px;
+  height: 40px;
+  width: 40px;
+  padding: 20px;
+  box-sizing: content-box;
 }
 .services h3 {
   font-size: 20px;
@@ -659,7 +662,7 @@ figure {
     width: 15%;
   }
 }
-.feature-left .icon i {
+.feature-left .icon svg {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
@@ -868,7 +871,7 @@ figure {
     margin-bottom: 4em;
   }
 }
-#fh5co-features .feature-left .icon i {
+#fh5co-features .feature-left .icon svg {
   color: #b3b3b3;
 }
 #fh5co-features .feature-left .icon {
@@ -1029,12 +1032,12 @@ figure {
     float: none;
   }
 }
-#fh5co-services .fh5co-icon i {
+#fh5co-services .fh5co-icon svg {
   font-size: 200px;
   color: #ef6249;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services .fh5co-icon i {
+  #fh5co-services .fh5co-icon svg {
     font-size: 100px;
   }
 }
@@ -1049,7 +1052,7 @@ figure {
   position: relative;
   padding-left: 40px;
 }
-#fh5co-contact .contact-info li i {
+#fh5co-contact .contact-info li svg {
   position: absolute;
   top: 0.3em;
   left: 0;
@@ -1179,7 +1182,7 @@ figure {
 .fh5co-blog .blog-text span.comment a {
   color: rgba(0, 0, 0, 0.3);
 }
-.fh5co-blog .blog-text span.comment a i {
+.fh5co-blog .blog-text span.comment a svg {
   color: #ef6249;
   padding-left: 7px;
 }
@@ -1229,7 +1232,7 @@ figure {
   padding: 4px 10px;
   color: #ef6249;
 }
-.fh5co-social-icons > a i {
+.fh5co-social-icons > a svg {
   font-size: 26px;
 }
 .fh5co-social-icons > a:hover,
@@ -1291,7 +1294,7 @@ figure {
 #footer .fh5co-social li a {
   font-size: 16px;
 }
-#footer .fh5co-social li i {
+#footer .fh5co-social li svg {
   float: left;
   font-size: 20px;
   width: 40px;
@@ -1482,7 +1485,7 @@ figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.btn.with-arrow i {
+.btn.with-arrow svg {
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -1496,7 +1499,7 @@ figure {
 .btn.with-arrow:hover {
   padding-right: 50px;
 }
-.btn.with-arrow:hover i {
+.btn.with-arrow:hover svg {
   color: #fff;
   right: 18px;
   visibility: visible;
@@ -1581,12 +1584,12 @@ figure {
   cursor: pointer;
   text-decoration: none;
 }
-.fh5co-nav-toggle.active i::before,
-.fh5co-nav-toggle.active i::after {
+.fh5co-nav-toggle.active svg::before,
+.fh5co-nav-toggle.active svg::after {
   background: #fff;
 }
-.fh5co-nav-toggle.dark.active i::before,
-.fh5co-nav-toggle.dark.active i::after {
+.fh5co-nav-toggle.dark.active svg::before,
+.fh5co-nav-toggle.dark.active svg::after {
   background: #fff;
 }
 .fh5co-nav-toggle:hover,
@@ -1595,7 +1598,7 @@ figure {
   outline: none;
   border-bottom: none !important;
 }
-.fh5co-nav-toggle i {
+.fh5co-nav-toggle svg {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1610,8 +1613,8 @@ figure {
   background: #fff;
   transition: all 0.2s ease-out;
 }
-.fh5co-nav-toggle i::before,
-.fh5co-nav-toggle i::after {
+.fh5co-nav-toggle svg::before,
+.fh5co-nav-toggle svg::after {
   content: "";
   width: 30px;
   height: 2px;
@@ -1622,41 +1625,41 @@ figure {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-.fh5co-nav-toggle.dark i {
+.fh5co-nav-toggle.dark svg {
   position: relative;
   color: #000;
   background: #000;
   transition: all 0.2s ease-out;
 }
-.fh5co-nav-toggle.dark i::before,
-.fh5co-nav-toggle.dark i::after {
+.fh5co-nav-toggle.dark svg::before,
+.fh5co-nav-toggle.dark svg::after {
   background: #000;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 
-.fh5co-nav-toggle i::before {
+.fh5co-nav-toggle svg::before {
   top: -7px;
 }
 
-.fh5co-nav-toggle i::after {
+.fh5co-nav-toggle svg::after {
   bottom: -7px;
 }
 
-.fh5co-nav-toggle:hover i::before {
+.fh5co-nav-toggle:hover svg::before {
   top: -10px;
 }
 
-.fh5co-nav-toggle:hover i::after {
+.fh5co-nav-toggle:hover svg::after {
   bottom: -10px;
 }
 
-.fh5co-nav-toggle.active i {
+.fh5co-nav-toggle.active svg {
   background: transparent;
 }
 
-.fh5co-nav-toggle.active i::before {
+.fh5co-nav-toggle.active svg::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1665,7 +1668,7 @@ figure {
   transform: rotateZ(45deg);
 }
 
-.fh5co-nav-toggle.active i::after {
+.fh5co-nav-toggle.active svg::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);

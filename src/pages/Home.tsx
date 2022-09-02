@@ -1,3 +1,16 @@
+import {
+  CloudDownload,
+  ComputerOutlined,
+  DesignServices,
+  DevicesOutlined,
+  FindInPage,
+  FindInPageOutlined,
+  OndemandVideo,
+  PlayArrow,
+  PlayArrowOutlined,
+  PlayCircle,
+  WebOutlined,
+} from "@mui/icons-material";
 import React from "react";
 
 const Home = () => {
@@ -28,7 +41,7 @@ const Home = () => {
                   className="btn btn-primary btn-lg popup-vimeo btn-video"
                   href=""
                 >
-                  <i className="icon-play"></i> Watch Video
+                  <PlayArrowOutlined /> Watch Video
                 </a>
               </p>
             </div>
@@ -150,7 +163,7 @@ const Home = () => {
                 <div className="col-md-4 animate-box">
                   <div className="feature-left">
                     <span className="icon">
-                      <i className="icon-laptop"></i>
+                      <ComputerOutlined />
                     </span>
                     <div className="feature-copy">
                       <h3>Retina Ready</h3>
@@ -165,7 +178,7 @@ const Home = () => {
                 <div className="col-md-4 animate-box">
                   <div className="feature-left">
                     <span className="icon">
-                      <i className="icon-mobile"></i>
+                      <DevicesOutlined />
                     </span>
                     <div className="feature-copy">
                       <h3>Responsive Layout</h3>
@@ -179,7 +192,7 @@ const Home = () => {
                 <div className="col-md-4 animate-box">
                   <div className="feature-left">
                     <span className="icon">
-                      <i className="icon-browser"></i>
+                      <WebOutlined />
                     </span>
                     <div className="feature-copy">
                       <h3>Clean &amp; Minimal</h3>
@@ -213,7 +226,7 @@ const Home = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-browser"></i>
+                    <WebOutlined />
                   </span>
                   <h3>Web Development</h3>
                   <p>
@@ -226,7 +239,7 @@ const Home = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-mobile"></i>
+                    <DevicesOutlined />
                   </span>
                   <h3>Mobile Apps</h3>
                   <p>
@@ -239,7 +252,7 @@ const Home = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-tools"></i>
+                    <DesignServices />
                   </span>
                   <h3>UX Design</h3>
                   <p>
@@ -252,7 +265,7 @@ const Home = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-video"></i>
+                    <OndemandVideo />
                   </span>
                   <h3>Video Editing</h3>
                   <p>
@@ -265,7 +278,7 @@ const Home = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-search"></i>
+                    <FindInPageOutlined />
                   </span>
                   <h3>SEO Ranking</h3>
                   <p>
@@ -278,7 +291,7 @@ const Home = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-cloud"></i>
+                    <CloudDownload />
                   </span>
                   <h3>Cloud Based Apps</h3>
                   <p>
