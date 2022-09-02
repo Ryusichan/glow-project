@@ -30,7 +30,7 @@ const Home = () => {
               <span>
                 Lovely Crafted by
                 <a href="" target="_blank" className="fh5co-site-name">
-                  FREEHTML5.co
+                  about Company
                 </a>
               </span>
               <p>

@@ -15,7 +15,7 @@ const About = () => {
               <span>
                 Lovely Crafted by{" "}
                 <a href="" target="_blank" className="fh5co-site-name">
-                  FREEHTML5.co
+                  about Company
                 </a>
               </span>
             </div>
@@ -41,7 +41,7 @@ const About = () => {
                 <figure>
                   <img
                     src={require("../res/images/about-image.jpg")}
-                    alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
+                    alt="about Company Bootstrap Template by about Company"
                     className="img-responsive"
                   />
                 </figure>

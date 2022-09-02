@@ -23,7 +23,7 @@ const Footer = () => {
                   <a href="/">Branding &amp; Identity</a>
                 </li>
                 <li>
-                  <a href="/">Free HTML5</a>
+                  <a href="/">about Company</a>
                 </li>
                 <li>
                   <a href="/">HandCrafted Templates</a>
@@ -34,10 +34,10 @@ const Footer = () => {
                   <a href="/">Free Bootstrap Template</a>
                 </li>
                 <li>
-                  <a href="/">Free HTML5 Template</a>
+                  <a href="/">about Company Template</a>
                 </li>
                 <li>
-                  <a href="/">Free HTML5 &amp; CSS3 Template</a>
+                  <a href="/">about Company &amp; CSS3 Template</a>
                 </li>
                 <li>
                   <a href="/">HandCrafted Templates</a>
@@ -74,11 +74,11 @@ const Footer = () => {
         </div>
         <div className="fh5co-copyright text-center">
           <p>
-            &copy; 2016 Free HTML5 template. All Rights Reserved.
+            &copy; 2016 about Company template. All Rights Reserved.
             <span>
               Designed with <i className="icon-heart"></i> by
               <a href="" target="_blank">
-                FreeHTML5.co
+                about Company
               </a>
               Demo Images by
               <a href="" target="_blank">
