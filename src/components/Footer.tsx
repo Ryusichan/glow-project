@@ -77,11 +77,11 @@ const Footer = () => {
             &copy; 2016 Free HTML5 template. All Rights Reserved.
             <span>
               Designed with <i className="icon-heart"></i> by
-              <a href="http://freehtml5.co/" target="_blank">
+              <a href="" target="_blank">
                 FreeHTML5.co
               </a>
               Demo Images by
-              <a href="http://unsplash.com/" target="_blank">
+              <a href="" target="_blank">
                 Unsplash
               </a>
             </span>

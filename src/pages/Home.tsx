@@ -16,11 +16,7 @@ const Home = () => {
               </h2>
               <span>
                 Lovely Crafted by
-                <a
-                  href="http://frehtml5.co/"
-                  target="_blank"
-                  className="fh5co-site-name"
-                >
+                <a href="" target="_blank" className="fh5co-site-name">
                   FREEHTML5.co
                 </a>
               </span>
@@ -30,7 +26,7 @@ const Home = () => {
                 </a>
                 <a
                   className="btn btn-primary btn-lg popup-vimeo btn-video"
-                  href="https://vimeo.com/channels/staffpicks/93951774"
+                  href=""
                 >
                   <i className="icon-play"></i> Watch Video
                 </a>

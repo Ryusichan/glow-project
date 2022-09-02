@@ -123,12 +123,64 @@ figure {
   background-image: url("../images/cover_bg_1.jpg");
 }
 
+.glowBgimg_portfolio {
+  background-image: url("../images/cover_bg_2.jpg");
+}
+
+.glowBgimg_services {
+  background-image: url("../images/cover_bg_3.jpg");
+}
+
+.glowBgimg_about {
+  background-image: url("../images/cover_bg_1.jpg");
+}
+
+.glowBgimg_contact {
+  background-image: url("../images/cover_bg_1.jpg");
+}
+
 .contentBg01 {
   background-image: url("../images/work-1.jpg");
 }
 
 .contentBg02 {
   background-image: url("../images/work-2.jpg");
+}
+
+.animateBox001 {
+  background-image: url("../images/work-3.jpg");
+}
+
+.animateBox002 {
+  background-image: url("../images/work-4.jpg");
+}
+
+.animateBox003 {
+  background-image: url("../images/work-5.jpg");
+}
+
+.animateBox004 {
+  background-image: url("../images/work-6.jpg");
+}
+
+.animateBox005 {
+  background-image: url("../images/work-1.jpg");
+}
+
+.animateBox006 {
+  background-image: url("../images/work-2.jpg");
+}
+
+.animateBox007 {
+  background-image: url("../images/work-3.jpg");
+}
+
+.animateBox008 {
+  background-image: url("../images/work-4.jpg");
+}
+
+.animateBox009 {
+  background-image: url("../images/work-5.jpg");
 }
 
 .fh5co-cover {

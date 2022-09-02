@@ -31,9 +31,9 @@ const Appbar = () => {
                   <li>
                     <Link to="about">About</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="blog">Blog</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="contact">Contact</Link>
                   </li>
