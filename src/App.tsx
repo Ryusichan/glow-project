@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Routers from "./routers/Routers";
+import "./App.css";
+import "./res/css/bootstrap.css";
+import "./res/css/bootstrap.min.css";
+import "./res/css/animate.css";
+import "./res/css/bootstrap.min.css";
+import "./res/css/icomoon.css";
+import "./res/css/magnific-popup.css";
+import "./res/css/style.css";
+import "./res/css/superfish.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Routers />;
 }
 
 export default App;
