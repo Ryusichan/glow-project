@@ -12,7 +12,7 @@ const Appbar = () => {
                 <i></i>
               </Link>
               <h1 id="fh5co-logo">
-                <Link to="index">Glow</Link>
+                <Link to="/">Glow</Link>
               </h1>
               <nav id="fh5co-menu-wrap" role="navigation">
                 <ul className="sf-menu" id="fh5co-primary-menu">

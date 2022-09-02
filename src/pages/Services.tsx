@@ -1,3 +1,11 @@
+import {
+  CloudDownload,
+  DesignServices,
+  DevicesOutlined,
+  FindInPageOutlined,
+  OndemandVideo,
+  WebOutlined,
+} from "@mui/icons-material";
 import React from "react";
 
 const Services = () => {
@@ -40,7 +48,7 @@ const Services = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-browser"></i>
+                    <WebOutlined />
                   </span>
                   <h3>Web Development</h3>
                   <p>
@@ -53,7 +61,7 @@ const Services = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-mobile"></i>
+                    <DevicesOutlined />
                   </span>
                   <h3>Mobile Apps</h3>
                   <p>
@@ -66,7 +74,7 @@ const Services = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-tools"></i>
+                    <DesignServices />
                   </span>
                   <h3>UX Design</h3>
                   <p>
@@ -79,7 +87,7 @@ const Services = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-video"></i>
+                    <OndemandVideo />
                   </span>
                   <h3>Video Editing</h3>
                   <p>
@@ -92,7 +100,7 @@ const Services = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-search"></i>
+                    <FindInPageOutlined />
                   </span>
                   <h3>SEO Ranking</h3>
                   <p>
@@ -105,7 +113,7 @@ const Services = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="services animate-box">
                   <span>
-                    <i className="icon-cloud"></i>
+                    <CloudDownload />
                   </span>
                   <h3>Cloud Based Apps</h3>
                   <p>
@@ -124,7 +132,7 @@ const Services = () => {
             <div className="row row-bottom-padded-lg">
               <div className="col-md-3 animate-box">
                 <div className="fh5co-icon">
-                  <i className="icon-browser"></i>
+                  <WebOutlined />
                 </div>
               </div>
               <div className="col-md-8 col-md-push-1 animate-box">
@@ -150,7 +158,7 @@ const Services = () => {
             <div className="row row-bottom-padded-lg">
               <div className="col-md-3 col-md-push-8 animate-box">
                 <div className="fh5co-icon">
-                  <i className="icon-mobile"></i>
+                  <DevicesOutlined />
                 </div>
               </div>
               <div className="col-md-7 col-md-pull-3 animate-box">
@@ -176,7 +184,7 @@ const Services = () => {
             <div className="row row-bottom-padded-lg">
               <div className="col-md-3 animate-box">
                 <div className="fh5co-icon">
-                  <i className="icon-tools"></i>
+                  <DesignServices />
                 </div>
               </div>
               <div className="col-md-8 col-md-push-1 animate-box">
@@ -202,7 +210,7 @@ const Services = () => {
             <div className="row row-bottom-padded-lg">
               <div className="col-md-3 col-md-push-8 animate-box">
                 <div className="fh5co-icon">
-                  <i className="icon-video"></i>
+                  <OndemandVideo />
                 </div>
               </div>
               <div className="col-md-7 col-md-pull-3 animate-box">
@@ -228,7 +236,7 @@ const Services = () => {
             <div className="row row-bottom-padded-lg">
               <div className="col-md-3 animate-box">
                 <div className="fh5co-icon">
-                  <i className="icon-search"></i>
+                  <FindInPageOutlined />
                 </div>
               </div>
               <div className="col-md-8 col-md-push-1 animate-box">
@@ -254,7 +262,7 @@ const Services = () => {
             <div className="row">
               <div className="col-md-3 col-md-push-8 animate-box">
                 <div className="fh5co-icon">
-                  <i className="icon-cloud"></i>
+                  <CloudDownload />
                 </div>
               </div>
               <div className="col-md-7 col-md-pull-3 animate-box">
