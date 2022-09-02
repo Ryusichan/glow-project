@@ -17,30 +17,30 @@ const Footer = () => {
               <h3>Our Services</h3>
               <ul className="float">
                 <li>
-                  <a href="#">Web Design</a>
+                  <a href="/">Web Design</a>
                 </li>
                 <li>
-                  <a href="#">Branding &amp; Identity</a>
+                  <a href="/">Branding &amp; Identity</a>
                 </li>
                 <li>
-                  <a href="#">Free HTML5</a>
+                  <a href="/">Free HTML5</a>
                 </li>
                 <li>
-                  <a href="#">HandCrafted Templates</a>
+                  <a href="/">HandCrafted Templates</a>
                 </li>
               </ul>
               <ul className="float">
                 <li>
-                  <a href="#">Free Bootstrap Template</a>
+                  <a href="/">Free Bootstrap Template</a>
                 </li>
                 <li>
-                  <a href="#">Free HTML5 Template</a>
+                  <a href="/">Free HTML5 Template</a>
                 </li>
                 <li>
-                  <a href="#">Free HTML5 &amp; CSS3 Template</a>
+                  <a href="/">Free HTML5 &amp; CSS3 Template</a>
                 </li>
                 <li>
-                  <a href="#">HandCrafted Templates</a>
+                  <a href="/">HandCrafted Templates</a>
                 </li>
               </ul>
             </div>
@@ -49,22 +49,22 @@ const Footer = () => {
               <h3>Follow Us</h3>
               <ul className="fh5co-social">
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="icon-twitter2"></i> Twitter
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="icon-facebook2"></i> Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="icon-google-plus2"></i> Google Plus
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/">
                     <i className="icon-instagram2"></i> Instagram
                   </a>
                 </li>

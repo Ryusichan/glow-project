@@ -44,11 +44,11 @@ const Contact = () => {
                     </li>
                     <li>
                       <i className="icon-mail"></i>
-                      <a href="#">info@yoursite.com</a>
+                      <a href="/">info@yoursite.com</a>
                     </li>
                     <li>
                       <i className="icon-globe2"></i>
-                      <a href="#">www.yoursite.com</a>
+                      <a href="/">www.yoursite.com</a>
                     </li>
                   </ul>
                 </div>
@@ -78,8 +78,8 @@ const Contact = () => {
                           name=""
                           className="form-control"
                           id=""
-                          // cols="30"
-                          // rows="7"
+                          cols={30}
+                          rows={7}
                           placeholder="Message"
                         ></textarea>
                       </div>

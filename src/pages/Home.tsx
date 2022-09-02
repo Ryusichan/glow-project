@@ -34,7 +34,7 @@ const Home = () => {
                 </a>
               </span>
               <p>
-                <a className="btn btn-primary btn-lg btn-learn" href="#">
+                <a className="btn btn-primary btn-lg btn-learn" href="/">
                   Learn More
                 </a>
                 <a
@@ -112,7 +112,7 @@ const Home = () => {
                   <div className="col-md-6 animate-box">
                     <div className="desc">
                       <h3>
-                        <a href="#">Guitar Music</a>
+                        <a href="/">Guitar Music</a>
                       </h3>
                       <p>
                         Far far away, behind the word mountains, far from the
@@ -121,7 +121,7 @@ const Home = () => {
                         the coast of the Semantics, a large language ocean.
                       </p>
                       <p>
-                        <a className="btn btn-primary" href="#">
+                        <a className="btn btn-primary" href="/">
                           Learn More
                         </a>
                       </p>
@@ -137,7 +137,7 @@ const Home = () => {
                   <div className="col-md-6 col-md-pull-6 animate-box">
                     <div className="desc desc2">
                       <h3>
-                        <a href="#">A Cube of Ice</a>
+                        <a href="/">A Cube of Ice</a>
                       </h3>
                       <p>
                         Far far away, behind the word mountains, far from the
@@ -146,7 +146,7 @@ const Home = () => {
                         the coast of the Semantics, a large language ocean.
                       </p>
                       <p>
-                        <a className="btn btn-primary" href="#">
+                        <a className="btn btn-primary" href="/">
                           Learn More
                         </a>
                       </p>
@@ -395,7 +395,7 @@ const Home = () => {
             <div className="row row-bottom-padded-md">
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-1.jpg")}
@@ -420,7 +420,7 @@ const Home = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -429,7 +429,7 @@ const Home = () => {
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-2.jpg")}
@@ -454,7 +454,7 @@ const Home = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -463,7 +463,7 @@ const Home = () => {
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-3.jpg")}
@@ -488,7 +488,7 @@ const Home = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>

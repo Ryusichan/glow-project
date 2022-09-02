@@ -43,7 +43,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox001"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-1">
+                    <a href="/" className="color-1">
                       <div className="case-studies-summary">
                         <span>Web Design</span>
                         <h2>Two Glas of Juice</h2>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox002"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-2">
+                    <a href="/" className="color-2">
                       <div className="case-studies-summary">
                         <span>Illustration</span>
                         <h2>Timer starts now!</h2>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox003"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-3">
+                    <a href="/" className="color-3">
                       <div className="case-studies-summary">
                         <span>Illustration</span>
                         <h2>Beautiful sunset</h2>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox004"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-4">
+                    <a href="/" className="color-4">
                       <div className="case-studies-summary">
                         <span>Web Design</span>
                         <h2>Company's Conference Room</h2>
@@ -89,7 +89,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox005"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-3">
+                    <a href="/" className="color-3">
                       <div className="case-studies-summary">
                         <span>Illustration</span>
                         <h2>Useful baskets</h2>
@@ -100,7 +100,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox006"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-4">
+                    <a href="/" className="color-4">
                       <div className="case-studies-summary">
                         <span>Web Design</span>
                         <h2>Skater man in the road</h2>
@@ -112,7 +112,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox007"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-4">
+                    <a href="/" className="color-4">
                       <div className="case-studies-summary">
                         <span>Web Design</span>
                         <h2>Two Glas of Juice</h2>
@@ -124,7 +124,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox008"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-5">
+                    <a href="/" className="color-5">
                       <div className="case-studies-summary">
                         <span>Web Design</span>
                         <h2>Timer starts now!</h2>
@@ -135,7 +135,7 @@ const Portfolio = () => {
                     className="one-third animate-box animateBox009"
                     data-animate-effect="fadeIn"
                   >
-                    <a href="#" className="color-6">
+                    <a href="/" className="color-6">
                       <div className="case-studies-summary">
                         <span>Illustration</span>
                         <h2>Beautiful sunset</h2>
@@ -148,7 +148,7 @@ const Portfolio = () => {
 
             <div className="row">
               <div className="col-md-4 col-md-offset-4 text-center animate-box">
-                <a href="#" className="btn btn-primary btn-lg">
+                <a href="/" className="btn btn-primary btn-lg">
                   Let's get started
                 </a>
               </div>

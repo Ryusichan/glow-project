@@ -38,7 +38,7 @@ const About = () => {
             <div className="row">
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-1.jpg")}
@@ -63,7 +63,7 @@ const About = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -72,7 +72,7 @@ const About = () => {
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-2.jpg")}
@@ -97,7 +97,7 @@ const About = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -106,7 +106,7 @@ const About = () => {
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-3.jpg")}
@@ -131,7 +131,7 @@ const About = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -141,7 +141,7 @@ const About = () => {
 
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-1.jpg")}
@@ -166,7 +166,7 @@ const About = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -175,7 +175,7 @@ const About = () => {
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-2.jpg")}
@@ -200,7 +200,7 @@ const About = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>
@@ -209,7 +209,7 @@ const About = () => {
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="fh5co-blog animate-box">
-                  <a href="#">
+                  <a href="/">
                     <img
                       className="img-responsive"
                       src={require("../res/images/blog-3.jpg")}
@@ -234,7 +234,7 @@ const About = () => {
                         countries Vokalia and Consonantia, there live the blind
                         texts.
                       </p>
-                      <a href="#" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Read More
                       </a>
                     </div>

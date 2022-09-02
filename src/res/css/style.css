@@ -308,14 +308,29 @@ figure {
   font-size: 14px;
   border-bottom: none !important;
 }
+.changeAppbar .sf-menu a {
+  color: #1e1e1e;
+}
 .sf-menu a:hover,
 .sf-menu a:focus {
   color: #fff !important;
+}
+.changeAppbar .sf-menu a:hover,
+.changeAppbar .sf-menu a:focus {
+  color: #1e1e1e !important;
 }
 
 .sf-menu li.active a:hover,
 .sf-menu li.active a:focus {
   color: #fff;
+}
+
+.sf-menu li.active {
+  border-bottom: 2px solid #fff;
+}
+
+.changeAppbar .sf-menu li.active {
+  border-color: #1e1e1e;
 }
 
 .sf-menu li,
@@ -389,11 +404,17 @@ figure {
 
 #fh5co-header-section {
   padding: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 2;
+  transition: all 0.32s;
+}
+
+.changeAppbar {
+  background-color: #fff !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .nav-header {
@@ -424,9 +445,16 @@ figure {
 #fh5co-logo a {
   color: #fff;
 }
+.changeAppbar #fh5co-logo a {
+  color: #1e1e1e;
+}
 #fh5co-logo a:hover,
 #fh5co-logo a:focus {
   color: #fff !important;
+}
+.changeAppbar #fh5co-logo a:hover,
+.changeAppbar #fh5co-logo a:focus {
+  color: #1e1e1e !important;
 }
 
 #fh5co-menu-wrap {
@@ -438,6 +466,12 @@ figure {
 }
 #fh5co-menu-wrap .sf-menu a {
   padding: 1em 0.75em;
+}
+#fh5co-menu-wrap .sf-menu .active a {
+  color: #fff;
+}
+.changeAppbar #fh5co-menu-wrap .sf-menu .active a {
+  color: #1e1e1e;
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
